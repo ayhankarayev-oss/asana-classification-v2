@@ -1,0 +1,24 @@
+﻿topic_id,current_label,suggested_name,doc_count,pct,coherence,confidence,avg_probability,split_recommended,split_silhouette,merge_with
+0,"account, accounts, new account, new, email, contac",New Account Setup,290,10.8,0.358,OK,0.441,False,0.063,22
+1,"investment, private investment, new private, priva",New Private Investment,244,9.1,0.382,LOW,0.2375,False,0.099,3|8|12|18|20|22
+2,"invoices, sent email, sent, email, email client, c",Invoicing & Billing,121,4.5,0.295,HIGH,0.5763,False,0.104,
+3,"excel, commitment, client, file, forum, unfunded, ",Commitment & Excel Data,144,5.4,0.308,OK,0.4699,False,0.136,1|8|15|18|20|22
+4,"yes, access, yes yes, person, person person, clien",Access & Permissions,141,5.3,0.295,OK,0.4039,False,0.116,
+5,"person, update person, update, person person, emai",Contact/Person Updates,133,5.0,0.341,OK,0.3259,False,0.111,
+6,"asset, class, asset class, missing, attribute, upd",Asset Classification,122,4.5,0.3,HIGH,0.6022,False,0.128,
+7,"client, portal, view, private client, client porta",Portal & Report Views,146,5.4,0.281,OK,0.3302,True,0.197,
+8,"llc, person llc, series, preferred, labs, person, ",LLC/Series Entity Setup,96,3.6,0.396,OK,0.4084,False,0.082,1|3|12|13|18|20|22
+9,"ownership, client, trust, person, structure, owner",Ownership & Trust Structure,125,4.7,0.399,OK,0.3358,False,0.111,
+10,"valuation, import, valuation update, update, wa, v",Valuation Import (Arch),81,3.0,0.767,HIGH,0.6173,True,0.656,
+11,"k1, llc, lp, investments, client, investments lp, ",Fund Administration (K-1/LP),208,7.8,0.279,OK,0.3021,False,0.087,
+12,"loan, promissory, lender, loans, promissory note, ",Loans & Promissory Notes,68,2.5,0.431,HIGH,0.5944,False,0.146,1|8
+13,"id, id id, investors, private, lp, class, investor",Fund Administration (K-1/LP),65,2.4,0.341,HIGH,0.5719,False,0.142,8|22
+14,"performance, commentary, benchmark, return, invest",Performance & Benchmarks,71,2.6,0.302,HIGH,0.5007,True,0.174,
+15,"backfill, accounts, data, statements, account, cha",Data Backfill & Statements,62,2.3,0.398,HIGH,0.579,False,0.143,3
+16,"distribution, distributions, received, transaction",Distributions & Transactions,72,2.7,0.363,OK,0.465,True,0.211,22
+17,"owner, ma, direct owner, asset, view, direct, leve",Portal & Report Views,94,3.5,0.326,OK,0.4117,True,0.152,
+18,"missing, missing data, updates, data, cost, data m",Missing Data Resolution,58,2.2,0.433,HIGH,0.5816,True,0.153,1|3|8|20|22
+19,"meeting, reminder, schedule, follow, task, reminde",Meetings & Follow-ups,140,5.2,0.281,LOW,0.296,False,0.092,
+20,"update, valuations, 30 2023, 000, sep 30, valuatio",Topic_20,52,1.9,0.372,HIGH,0.6152,False,0.098,1|3|8|18|22
+21,"cost basis, cost, basis, missing cost, update cost",Cost Basis Issues,55,2.0,0.489,HIGH,0.5712,True,0.364,
+22,"transfer, general updates, general, person, update",Contact/Person Updates,95,3.5,0.348,OK,0.375,False,0.088,0|1|3|8|13|16|18|20

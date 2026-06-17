@@ -1,0 +1,9 @@
+﻿metric,value,status
+Total Tasks,2683,PASS
+Business Pillars,7,PASS
+Topic Clusters,23,PASS
+Outlier Rate,0%,PASS
+Avg Coherence,0.369,GOOD
+High Confidence Topics,10/23,GOOD
+Merge Candidates,2,PENDING
+Split Candidates,7,PENDING

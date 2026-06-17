@@ -1,0 +1,127 @@
+﻿task_id,text,proposed_class,confidence,avg_similarity,flag
+1214068138663264,"quantor core fund, lp | investor account statement for march 2026 | [person] 2007 trust",New Account Onboarding,0.2857142857142857,0.64858794,AUTO
+1213962500547506,: unit verification failures due to firm user edit,New Account Onboarding,0.42857142857142855,0.52881986,AUTO
+1213266878099214,cherry family drop update,New Private Investment Setup,0.42857142857142855,0.42087913,AUTO
+1214061627948653,"general updates please update the contributions and distributions for the investment in for tellepsen, as outlined below (password",New Private Investment Setup,0.42857142857142855,0.6671316,AUTO
+1205538026541893,check in on mortgage values with [person] and [person],Contact & User Updates,0.7142857142857143,0.57381976,AUTO
+1214920733753629,"general updates please review the attached screenshot below for christopher milisci qualified trust, as [person] at ccp needs help",New Account Onboarding,0.42857142857142855,0.6260943,AUTO
+1214849290552085,"snipes household report revisions 05.15.26 high priority
+[person] tax account – cash: was never zeroed out after live links turned",Security & Position Updates,0.42857142857142855,0.6235125,AUTO
+1211979900165214,follow up with [person] and [person] re: email i sent them last wednesday [person] sent to lenny & charles below for reference: go,Recurring Data Maintenance & Audits,0.42857142857142855,0.6968395,AUTO
+1215181996468061,frost brokerage statement,Recurring Data Maintenance & Audits,0.42857142857142855,0.6338975,AUTO
+1207979344458140,send [person] [client] mortgage statements,Distribution & Income Recording,0.42857142857142855,0.5737281,AUTO
+1214979150436511,please process the 5 files linked in the task description below please see attached below the 5 files [person] provided for proces,New Account Onboarding,0.5714285714285714,0.58778095,AUTO
+1214985124244243,"general updates per , for cherry, theadams street alternative investment should be flowing through but she noticed that the transa",Missing Data & Attributes,0.7142857142857143,0.68449605,AUTO
+1214978974007079,"please process the etrade statement linked in the task description below please process the etrade statement provided by [person],",Unclassified (Topic 20),0.14285714285714285,0.591992,AUTO
+1214052159835054,"please process the valuation updates shown within the two files included in the task below please process the , banco acct# 8702, ",Commitment & Capital Call Tracking,0.42857142857142855,0.63762146,AUTO
+1212708640851858,"update items please reference the ""2026.01.06 revtrust ownership "" excel provided by [person] from aaa to view updates that are ne",Ownership & Trust Structure,0.5714285714285714,0.7420105,AUTO
+1214586846736789,[client] - manual asset updates q1 2026 key actions required: 1. download correct file: v5.5.26 datestamp from (ignore 4.30.26 fil,Security & Position Updates,0.2857142857142857,0.69605404,AUTO
+1214309728553417,"general updates please revise and update the private investments in the account x9506 for [person]. per , the commitment and total",Commitment & Capital Call Tracking,0.2857142857142857,0.7049335,AUTO
+1213920134183489,please investigate where the $0 12/31/2025 valuation transaction for stolar [client] 29 (stonegate) [ [id] ] please investigate wh,Position Cleanup & Deduplication,0.2857142857142857,0.5102889,AUTO
+1213998825442134,"general updates please verify if the investments in yellow were linked for performance for [person] as outlined below by [person]
+",Missing Data & Attributes,0.42857142857142855,0.604471,AUTO
+1214138725283314,dcf reconciliation - ccp,Missing Data & Attributes,0.5714285714285714,0.5701712,AUTO
+1214079549751631,please add entity id and direct owner ids and security name to this spreadsheet please use this excel extract (see link above) fro,Commitment & Capital Call Tracking,0.42857142857142855,0.58628774,AUTO
+1214048057545386,latest batch of 5 updates,Client Report & View Management,0.5714285714285714,0.3992504,AUTO
+1213972391893430,"please update [person] to reflect an additional, pari-passu investment in dfi by the family, which should be dated march 31, 2026 ",Missing Data & Attributes,0.42857142857142855,0.6739672,AUTO
+1213890417356989,: unit verification failures due to firm user edits,New Account Onboarding,0.42857142857142855,0.52167344,AUTO
+1213730767354433,coreshell - series b - update,Missing Data & Attributes,0.5714285714285714,0.3520263,AUTO
+1213720603620067,"please hide ""gdo, lp"" under [client] 2003 gift trust (xxxxx7000) in please hide this security in so it's no longer visible:",Position Cleanup & Deduplication,0.42857142857142855,0.6039533,AUTO
+1213561965923572,"please fix the for jpd crut ii (tpl) shown in the view linked in the task description, using the statement provided by [person] re",Missing Data & Attributes,0.42857142857142855,0.40406537,AUTO
+1213334714616879,"general updates please update the values of the central park investments under the [person], as noted by . see the latest statemen",New Account Onboarding,0.42857142857142855,0.6801126,AUTO
+1213385281047178,please investigate incorrect cash flow (see description below) hi i saw there was a transaction loaded in by sugam for this deal. ,Position Cleanup & Deduplication,0.2857142857142857,0.5470727,AUTO
+1213383556560167,"general updates [person], general updates [person] [email] general updates please correct all addresses in to 2727 [person]. i dra",New Account Onboarding,0.42857142857142855,0.5730481,AUTO
+1211795715695100,"please make the updates as outlined in the email from [person] to [person], referencing attachments provided please reference the ",Missing Data & Attributes,0.5714285714285714,0.66732895,AUTO
+1212950893095891,"please update the below to be in line with the k-1, and moved from 2013 lllp to jmd 1998 irrevocable. please update the below to b",Distribution & Income Recording,0.42857142857142855,0.5761523,AUTO
+1212909778338932,"please verify that you're able to see that [person] funded his crut with a transfer of 14,926 tpl shares (shown in [person] form n",Debt & Lending Instruments,0.2857142857142857,0.5995672,AUTO
+1212844968182449,"please include $1,200,000 as estimated tax (attribute) as of 1/15 for kevin 2007 trust no. 2 i have a custom attribute in called '",Missing Data & Attributes,0.2857142857142857,0.48993206,AUTO
+1212840690205420,"please update nona master development llc (sold for 4m even on december 31, 2025) meeting with dfo today and [employee] 's instruc",Missing Data & Attributes,0.42857142857142855,0.64703053,AUTO
+1212828324436657,"general updates [person], general updates [person]
+
+ [email] 
+
+general updates
+
+team, the cells in yellow i highlighted are not ri",Missing Data & Attributes,0.5714285714285714,0.60727644,AUTO
+1211910490512831,"please update anything directly owned by gab in , to [person] [client] trust, as of 02/23/2024 (gab's date of death as transfer ou",Ownership & Trust Structure,0.5714285714285714,0.579074,AUTO
+1212323360901948,please create tax loss harvesting report for [person] create the request [person] report for [client] per renees specifications in,Recurring Data Maintenance & Audits,0.2857142857142857,0.57191384,AUTO
+1212271858642043,"payment notification from update technologies, inc.",Invoicing & Billing,0.2857142857142857,0.5177008,AUTO
+1211939333409651,"reminder linked to task: please update 598 mortgage and 600 mortgage, in , using the statements linked in the task description bel",Distribution & Income Recording,0.42857142857142855,0.63605934,AUTO
+1211958441861313,", please update the holding account numbers for the accounts outlined in the excel file in the task description for , please updat",New Account Onboarding,0.5714285714285714,0.57928896,AUTO
+1211910490512821,please reference statement attached in task description below to update (gaba) for the [client] in . per chat with [person]/charle,Missing Data & Attributes,0.42857142857142855,0.61686975,AUTO
+1211884664025259,"update mortgages, referencing statements [person] provided in task description below. 598 600",New Account Onboarding,0.5714285714285714,0.59151036,AUTO
+1211862669241638,"general updates [person], general updates [person] [email] general updates remove albanese real estate mgmt rp, llc from .",New Private Investment Setup,0.42857142857142855,0.6192203,AUTO
+1211863114667646,"general updates [person], general updates [person][email] 
+
+general updates
+
+the account with [person] was originally set up throu",New Account Onboarding,0.7142857142857143,0.68111235,AUTO
+1211363148981427,"dfi legacy positions to be removed please see these views: 
+ 
+ 
+ 
+ 
+
+we had discussed removing all references to the old dfi. i se",Position Cleanup & Deduplication,0.42857142857142855,0.503714,AUTO
+1211851824144563,"general updates [person], general updates [person]
+
+ [email] 
+
+general updates
+
+up the private investment in the value based accou",New Account Onboarding,1.0,0.70796114,AUTO
+1210352738775661,please update the names of the securities in (column b) to match the names in [person] column a. see the spreadsheet attached. ple,Missing Data & Attributes,0.5714285714285714,0.6835599,AUTO
+1211799369396567,make updates to monarch and oaktree as outlined in email/ info provided by [client] team in file provided in original email,Access & Permission Requests,0.14285714285714285,0.61627567,AUTO
+1211276612624339,updates - see ben’s comments in the description box below no action required for items with 🚫 and ✅ some of the southstate bank fe,Missing Data & Attributes,0.42857142857142855,0.64671963,AUTO
+1211547809098017,"general updates [person], general updates [person]
+
+ [email] 
+
+general updates
+
+[person] holds an investment in his alternative in",New Private Investment Setup,0.7142857142857143,0.6343771,AUTO
+1211483205452530,"please update [person] x3817 as to capture the shares purchased, per [person]'s email in task description",New Account Onboarding,0.42857142857142855,0.55984896,AUTO
+1209230729149032,please make adjustments based on the updates in the email below re: frph share transfer please read the whole email thread in the ,Historical Data Backfill,0.42857142857142855,0.46762744,AUTO
+1211183450234482,"please update advantage futures account xxxx2722 please see the excel linked reference the tab titled ""advantage new""
+please model",New Account Onboarding,0.2857142857142857,0.58396894,AUTO
+1210764816563927,"please update [person] with the changes indicated in columns e and g. please disregard the cells marked ""n/a,"" ""[person],"" and ""pe",New Account Onboarding,0.7142857142857143,0.64526594,AUTO
+1211009602232471,follow up on [client] brokerage accounts - new from dec 2024 / jan 2025 per [person]: just following up … i now see dfr lifetime (,Recurring Data Maintenance & Audits,0.42857142857142855,0.56595224,AUTO
+1211276528150376,"please update career karma to outrival, inc. (formerly career karma) in and also update the position owned by [person] 50/50 as ou",New Account Onboarding,0.2857142857142857,0.4658252,AUTO
+1210654540447533,[person] and [person] with [person]'s latest values latest excel is saved,Commitment & Capital Call Tracking,0.5714285714285714,0.47434008,AUTO
+1210619474752623,"updates updates [person] [email] updates data classification (e.g., misclassified transactions, etc.) we need to discuss the setup","Meetings, Reminders & Follow-ups",0.42857142857142855,0.6013259,AUTO
+1211068350737233,please add information outlined within debt schedule attachment found in task below to [person] is the summary of debt obligation ,Debt & Lending Instruments,0.2857142857142857,0.5530578,AUTO
+1211011706047942,please add the children’s trust to the grouping philip sole beneficiary trust and make sure that the 1999 trust is showing underne,Ownership & Trust Structure,0.5714285714285714,0.65343386,AUTO
+1211094748572229,general updates general updates - please transfer mfg fund i and mfg fund ii - see details below [person] [email] general updates ,Ownership & Trust Structure,0.2857142857142857,0.6657765,AUTO
+1211057838720824,please transfer illuminarium - john p diamond please see the transfer document also include the appropriate attributes and share t,Ownership & Trust Structure,0.2857142857142857,0.52626187,AUTO
+1211066386370463,"please make the two updates requested in the email found in task description below to the "" [client] - balance sheet view"" in . em",New Account Onboarding,0.2857142857142857,0.63611615,AUTO
+1210976473413038,"general updates dfi - updates [person] [email] general updates see attached. as you know, we've gone to great lengths to change ho",Missing Data & Attributes,0.5714285714285714,0.66140825,AUTO
+1210931051713820,"please update raynor fund, lp (raynor fund security) [ [id] ] and [direct [id] ] please see the excel reference the tab titled ""cl",Security & Position Updates,0.42857142857142855,0.62804466,AUTO
+1210643952133309,new financial account new financial account [person] [email] new financial account investment account dfi name of the account owne,Missing Data & Attributes,0.42857142857142855,0.60226935,AUTO
+1210622071553207,"please transfer dfj mercury ii, lp (position [id] ) from 2020 revocable trust to samaritan foundation charitable trust as of 12/31",Ownership & Trust Structure,0.2857142857142857,0.57222563,AUTO
+1210629526269531,"general updates general updates [person] [email] general updates please give our chief investment officer, [person], full access t","Meetings, Reminders & Follow-ups",0.42857142857142855,0.65599114,AUTO
+1210319523148937,"general updates general updates [person] [email] general updates issue, regarding mrei v investors, lp.: the quarterly and annual ",Missing Data & Attributes,0.5714285714285714,0.64018744,AUTO
+1210254895892195,general updates general updates [person] [email] general updates the attached distribution was receive on 1/24/24 and needs to be ,Contact & User Updates,0.2857142857142857,0.58775055,AUTO
+1209850002539695,update master third party vendors document,Recurring Data Maintenance & Audits,0.2857142857142857,0.4287279,AUTO
+1209899678431684,"=> issue that needs to be resolved this task was shared via email. from [person]: thanks. also, not sure if this has anything to d",Missing Data & Attributes,0.42857142857142855,0.58416194,AUTO
+1209887414217696,follow up on 2024 pbc request - [client] a. [client] 2011 gift trust,Ownership & Trust Structure,0.2857142857142857,0.59624606,AUTO
+1209687937296608,please work with [person] to determine the exact transfer dates of the privately held assets in the [client] family foundation (se,Ownership & Trust Structure,0.42857142857142855,0.6518397,AUTO
+1207554323413384,"general updates [employee] [person], general updates [employee] [person] [email] general updates please connect all values to . al",New Account Onboarding,0.7142857142857143,0.68856144,AUTO
+1209716388388775,please process the transfers below - see email thread,New Account Onboarding,0.42857142857142855,0.55002534,AUTO
+1209733418793742,follow up on transition to cf,Missing Data & Attributes,0.2857142857142857,0.42503136,AUTO
+1209672565584719,"updates updates [person] [email] updates data classification (e.g., misclassified transactions, etc.) pleaes remove any cash or ca",Missing Data & Attributes,0.42857142857142855,0.6631598,AUTO
+1209636939669591,please look into adler iv distribution (position [id] ) on 2/14/25. this transaction should be transferred to direct owner [client,Distribution & Income Recording,0.42857142857142855,0.63102514,AUTO
+1209609144231404,"updates updates [person] [email] updates data classification (e.g., misclassified transactions, etc.) medium priority",Missing Data & Attributes,0.42857142857142855,0.54578996,AUTO
+1209443976506714,please transfer the investments below from the [client] 2015 [client] trust to the [client] gst non-exempt marital trust. transfer,Ownership & Trust Structure,0.42857142857142855,0.65792936,AUTO
+1209583044407580,"updates updates [person] [email] updates data classification (e.g., misclassified transactions, etc.) there seems to be an issue w",Missing Data & Attributes,0.42857142857142855,0.5650597,AUTO
+1209573306174450,"updates updates [person][email] updates data classification (e.g., misclassified transactions, etc.) the security 0 bohannon shoul",Missing Data & Attributes,0.5714285714285714,0.57523024,AUTO
+1209335836742587,please update [person] with the corrections for ngp midstream indicated in the excel,New Account Onboarding,0.2857142857142857,0.55969584,AUTO
+1207859466652859,there were two emails from [person] on sunday sent to the diamond support email titled “fund quaterly update”,Missing Data & Attributes,0.2857142857142857,0.51903963,AUTO
+1209153478927176,please separate [client] 2003 gift trust in [client] portal view [client] 2003 gift trust rolls up to [person] and [person] as cli,Ownership & Trust Structure,0.5714285714285714,0.6063692,AUTO
+1209131486009548,"please transfer in a private [client] position in (notes in description below) in the household for [client] , there is a security",Ownership & Trust Structure,0.7142857142857143,0.6533618,AUTO
+1209071473217110,re-run the cta flow for dfo vault,Ownership & Trust Structure,0.2857142857142857,0.47272068,AUTO
+1208662289988379,update sunfox investments,Missing Data & Attributes,0.42857142857142855,0.47321984,AUTO
+1208280468286918,address [client] [client] variances in please see email for reference (subject: fw [client] - //statement tie out for january brok,Recurring Data Maintenance & Audits,0.42857142857142855,0.5505334,AUTO
+1208118288687747,look into the recent registration renewals shared by the ca team,Recurring Data Maintenance & Audits,0.42857142857142855,0.4557178,AUTO
+1207206951248877,update ' access remove aditya nagar,Position Cleanup & Deduplication,0.2857142857142857,0.4566954,AUTO
+1203230862457615,schedule next budgeting meeting and collect 2017 gift trust payment,Recurring Data Maintenance & Audits,0.42857142857142855,0.47319618,AUTO
+1204931203793930,audit family foundation data in and remove texas advantage bank,New Account Onboarding,0.42857142857142855,0.5128587,AUTO

@@ -1,0 +1,270 @@
+# entities.yaml - Complete entity dictionary for the preprocessing pipeline.
+# Update this file to add/remove tracked entities without modifying Python code.
+#
+# Rules:
+#   - Within each category, list LONGER variants FIRST to prevent partial matches.
+#   - Matching is case-insensitive and uses word boundaries.
+#   - Category keys in extraction output:
+#       platforms.<subcategory>  (e.g., "platforms.portfolio")
+#       custodians
+#       banks
+#       advisor_orgs
+#       clients                 (household/client entity names)
+
+# =============================================================================
+# PLATFORMS - all known operational systems
+# =============================================================================
+platforms:
+  portfolio:
+    - Addepar - EU
+    - Addepar - Own
+    - Addepar EU
+    - Addepar Own
+    - Addepar-EU
+    - Addepar-Own
+    - Addepar
+    - Arch - Own
+    - Arch Own
+    - Arch-Own
+    - Arch
+    - Tetrix
+    - Venn
+    - NINES
+    - Overstone
+    - Bridge
+
+  document:
+    - SharePoint
+    - Egnyte
+
+  data_aggregator:
+    - Orca
+    - Plaid
+    - ByAll
+
+  client_portal:
+    - Epicc
+
+  crm:
+    - Salesforce
+    - SFDC
+
+  accounting:
+    - Sage Intacct
+    - Sage
+    - KnowLedger
+    - QuickBooks
+    - Quickbooks
+    - Intacct
+
+  project_management:
+    - Asana
+
+# =============================================================================
+# CUSTODIANS - hold custody of investment accounts
+# =============================================================================
+custodians:
+  - Jefferies Global Wealth Management
+  - Jefferies
+  - Goldman Sachs
+  - Goldman
+  - Morgan Stanley
+  - Raymond James
+  - Charles Schwab
+  - Schwab
+  - Fidelity Investments
+  - Fidelity
+  - Pershing
+  - Northern Trust
+  - Stifel
+  - Interactive Brokers
+  - IBKR
+  - Merrill Lynch
+  - Merrill
+  - Edward Jones
+  - Vanguard
+  - BlackRock
+  - UBS
+
+# =============================================================================
+# BANKS - deposit/wire/mortgage institutions
+# =============================================================================
+banks:
+  - Bank of America
+  - Wells Fargo
+  - JPMorgan Chase
+  - JPMorgan
+  - JP Morgan
+  - JPM
+  - BofA
+  - Citibank
+  - Citigroup
+  - Citi
+  - Regions Bank
+  - TD Ameritrade
+  - TD Bank
+  - US Bank
+
+# =============================================================================
+# ADVISOR ORGS - internal firm references
+# =============================================================================
+advisor_orgs:
+  - Mosaic Advisors
+  - Mosaic
+  - Elevate Advisory
+  - Elevate
+  - SAOS
+  - TOS
+
+# =============================================================================
+# CLIENTS - household and client entity names
+# These are masked as [CLIENT] in cleaned_text.
+# Include ALL known variants (with/without suffixes).
+# The pipeline also auto-generates abbreviated variants from these.
+# =============================================================================
+clients:
+  - Parkview Capital Partners
+  - Dorsar Investment Partners
+  - Annunziato Holdings
+  - PJS Family Office
+  - Goradia Family Office
+  - Boelte Family Office
+  - Mussafer Family Office
+  - Meaningful Enterprises
+  - Meaningful Ventures
+  - Jefferies Global Wealth Management
+  - RKL Private Wealth
+  - Thunder Exploration
+  - Woodland Entities
+  - Sands Point Consulting
+  - Outwing Wealth
+  - Mighty Equities
+  - Gary Ventures
+  - Capital Creek
+  - Bald Cypress
+  - McNair Square
+  - Nella Holdings
+  - BGE Enterprises
+  - FJ Management
+  - HM International
+  - AWB Capital
+  - Bellco Capital
+  - Tiempo Capital - Omega
+  - Tiempo Capital
+  - Deal Capital
+  - Dume Ranch
+  - Origin Advisors
+  - Susan Golden
+  - Sheryl Weinstock
+  - Elaine and Russ Webster
+  - Elaine Webster
+  - Russ Webster
+  - Lynley and Alex Stern
+  - Lynley Stern
+  - Alex Stern
+  - Carl Schmulen
+  - Brian Schmulen
+  - Mark Schmulen
+  - Schmulen
+  - Caren and Rob Sweetland
+  - Caren Sweetland
+  - Rob Sweetland
+  - Sweetland
+  - Larry Buryakovsky
+  - Buryakovsky
+  - Ken and Dean
+  - Sean Connery
+  - Peregrine
+  - Willica
+  - iAlumbra
+  - Trousdale
+  - Sarosphere
+  - Parkview
+  - Dorsar
+  - Annunziato
+  - Goradia
+  - Boelte
+  - Mussafer
+  - Outwing
+  - Bellco
+  - Woodland
+  - Epicc
+  - TOS DUMMY HOUSEHOLD
+  - DUMMY HOUSEHOLD
+  - Firm-wide
+  # --- NEW: Person names discovered in audit ---
+  - Carolina Tagtmeyer
+  - Carolina
+  - Letsos
+  - Mark Letsos
+  - Patricia Letsos
+  - Diego
+  - Diegos
+  - Koshy Family
+  - Koshy
+  - Geib Family
+  - Geib
+  - Connery Collections
+  - Connery
+  # --- NEW: Client abbreviations / entity names ---
+  - DRGC
+  - DRGCs
+  - Stable Road
+  - Tultepec
+  - HavocAI
+  - Clovis Oncology
+  - Clovis
+  - Leeds
+  - Catalur Onshore Fund
+  - Catalur Offshore Fund
+  - Catalur
+  - Andromaco
+  - Titan Falcons
+  - Venus Aerospace
+  - Petrocom Energy
+
+# =============================================================================
+# SYSTEMS - internal tools and vendor systems (masked as [SYSTEM])
+# =============================================================================
+systems:
+  - JSDE
+  - DAIPE
+  - DAI-7525
+  - DAI7525
+  - DAI
+  - Empaxis
+  - HMI
+  - A2A
+  - UVF
+  - Dashing
+
+# =============================================================================
+# CLIENT CODES - internal identifiers (masked as [CLIENT_CODE])
+# =============================================================================
+client_codes:
+  - JOD
+  - JAD
+  - GJ
+  - DOR
+  - CB
+  - PKUS
+  - USCA
+  - CI Rollover
+  - DRGCS
+  - RMWC
+  - JSDE UVF
+  - CDI UA
+
+# =============================================================================
+# BANKS (additional) - discovered in audit
+# =============================================================================
+banks_additional:
+  - ADCB
+  - Abu Dhabi Commercial Bank
+  - Zuger Bank
+  - Zuger
+  - Saxo Bank
+  - Saxo
+  - StoneX
+  - Cantor
+  - South State

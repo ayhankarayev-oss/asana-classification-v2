@@ -1,0 +1,114 @@
+﻿========================================================================
+  PHASE 9 - CLASSIFIER EVALUATION REPORT
+========================================================================
+
+  Model       : TF-IDF (ngram 1-2, max 25k features) + Logistic Regression
+  Training    : 2,255 labeled tasks (outliers excluded)
+  Classes     : 15
+  Test split  : 80% / 20% (stratified)
+
+------------------------------------------------------------------------
+  HELD-OUT TEST SET RESULTS  (451 rows)
+------------------------------------------------------------------------
+
+  Accuracy (top-1)  : 63.0%
+  Avg confidence    : 0.446
+
+  Per-class breakdown:
+
+                                                    precision    recall  f1-score   support
+    
+     Capital Call Audit & Monthly Statement Review      0.571     0.571     0.571        21
+                   Cost Basis & Data Quality Fixes      0.900     0.750     0.818        12
+           Direct Deal Updates & Unlinked Accounts      0.312     0.417     0.357        12
+                  Document Upload & Client Billing      0.857     0.667     0.750         9
+                         General & Ad Hoc Requests      0.750     0.500     0.600         6
+                      Loan & Lending Account Setup      0.407     0.524     0.458        21
+                     New Account & Data Feed Setup      0.696     0.842     0.762        38
+                      New Private Investment Entry      0.750     0.683     0.715       101
+        Ownership Structure & Legal Entity Changes      0.579     0.611     0.595        18
+                Portfolio Platform Account Updates      0.657     0.698     0.677        63
+    Portfolio Platform View & Access Configuration      0.548     0.590     0.568        39
+           Private Investment Updates & Valuations      0.593     0.627     0.610        51
+                      Real Asset Transaction Audit      0.400     0.286     0.333        14
+                 Reporting & Performance Analytics      0.769     0.541     0.635        37
+             Trust & Estate Cash Flow Verification      0.300     0.333     0.316         9
+    
+                                          accuracy                          0.630       451
+                                         macro avg      0.606     0.576     0.584       451
+                                      weighted avg      0.642     0.630     0.632       451
+
+------------------------------------------------------------------------
+  5-FOLD CROSS-VALIDATION  (full labeled set, 2,255 rows)
+------------------------------------------------------------------------
+
+  Fold scores : 0.585  0.594  0.570  0.568  0.603
+  Mean        : 0.584
+  Std x2      : 0.027
+  95% CI      : [0.557 -- 0.611]
+
+------------------------------------------------------------------------
+  CLASS SIZE BREAKDOWN  (training distribution)
+------------------------------------------------------------------------
+
+  Business Label                                       Docs  % Total
+  ------------------------------------------------------------------------
+  New Private Investment Entry                          505    22.4%
+  Portfolio Platform Account Updates                    314    13.9%
+  Private Investment Updates & Valuations               254    11.3%
+  Portfolio Platform View & Access Configuration        193     8.6%
+  New Account & Data Feed Setup                         190     8.4%
+  Reporting & Performance Analytics                     184     8.2%
+  Capital Call Audit & Monthly Statement Review         108     4.8%
+  Loan & Lending Account Setup                          107     4.7%
+  Ownership Structure & Legal Entity Changes             93     4.1%
+  Real Asset Transaction Audit                           69     3.1%
+  Direct Deal Updates & Unlinked Accounts                60     2.7%
+  Cost Basis & Data Quality Fixes                        59     2.6%
+  Document Upload & Client Billing                       46     2.0%
+  Trust & Estate Cash Flow Verification                  45     2.0%
+  General & Ad Hoc Requests                              28     1.2%
+
+------------------------------------------------------------------------
+  CONFIDENCE DISTRIBUTION ON TEST SET
+------------------------------------------------------------------------
+
+  Confidence bucket    Count    % of test
+  ------------------------------------------------------------------------
+         0.90 - 1.00      33       7.3%  ###
+         0.70 - 0.90      60      13.3%  ######
+         0.50 - 0.70      66      14.6%  #######
+         0.00 - 0.50     292      64.7%  ################################
+
+========================================================================
+  HOW TO USE THE SAVED MODEL ON NEW TASKS
+========================================================================
+
+  # 1 - Classify a single new task
+  import joblib
+  clf = joblib.load('issue_classifier.pkl')
+  complaint_text = 'Please add new private investment for Letsos in Addepar'
+  label      = clf.predict([complaint_text])[0]
+  confidence = clf.predict_proba([complaint_text]).max()
+  print(label, confidence)
+
+  # 2 - Score a batch of new tasks from a CSV
+  import pandas as pd, joblib
+  clf   = joblib.load('issue_classifier.pkl')
+  new   = pd.read_csv('new_tasks.csv', dtype=str, keep_default_na=False)
+  # Build complaint_text the same way preprocess.py does:
+  new['complaint_text'] = (new['form_intent'].str.strip() + ' '
+                          + new['Name'].str.strip() + ' '
+                          + new['notes_clean'].str.strip()).str.strip()
+  new['predicted_label']      = clf.predict(new['complaint_text'])
+  new['prediction_confidence'] = clf.predict_proba(new['complaint_text']).max(axis=1)
+  new.to_csv('new_tasks_classified.csv', index=False)
+
+  # 3 - Confidence threshold: flag uncertain predictions for manual review
+  uncertain = new[new['prediction_confidence'] < 0.60]
+  print('{} tasks need manual review'.format(len(uncertain)))
+
+========================================================================
+  Model saved  -> issue_classifier.pkl
+  Report saved -> classifier_report.txt
+========================================================================

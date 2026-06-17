@@ -1,0 +1,647 @@
+﻿
+========================================================================
+  1. CORPUS OVERVIEW
+========================================================================
+
+  Total tasks in corpus   : 4,278
+  Assigned to a topic     : 4,160  (97.2%)
+  Outliers  (topic -1)    : 118  (2.8%)
+
+  ID       Size  % Total  Business Label
+  ------------------------------------------------------------------------
+  16        898    21.0%  General Operations (Miscellaneous)
+  4         833    19.5%  Capital Calls, Distributions & Arch Verification
+  2         364     8.5%  New Private Investment Entry
+  3         312     7.3%  Private Investment Updates & Valuations
+  0         240     5.6%  New Account Setup
+  9         185     4.3%  Weekly Audits & Transaction Reconciliation
+  8         175     4.1%  Ownership Structure & Entity Changes
+  13        173     4.0%  General Addepar / Arch Updates
+  6         166     3.9%  Document & Statement Management
+  5         156     3.6%  Data Quality & Cost Basis Fixes
+  1         149     3.5%  Addepar Account Updates
+  11        104     2.4%  Follow-up & Pending Escalations
+  10         82     1.9%  Client Portal & EPICC Access
+  7          79     1.8%  Reporting & Dashboard Views
+  14         69     1.6%  Onboarding Tracker Reviews
+  17         63     1.5%  SAOS / Mortgage / Third-party Vendor Tasks
+  12         61     1.4%  Addepar View & Portal Configuration
+  15         51     1.2%  Account Statement & Distribution Check-ins
+  -1        118     2.8%  Outliers / Unclassified
+
+========================================================================
+  2. CLUSTER COHERENCE  (c-TF-IDF signal strength)
+========================================================================
+
+  The top c-TF-IDF score measures how uniquely the leading keyword
+  identifies a cluster vs the rest of the corpus.
+  Higher score = tighter, more semantically consistent cluster.
+
+  ID        Score  Signal                               Business Label
+  ------------------------------------------------------------------------
+  14       0.6527  STRONG    (very tight cluster)       Onboarding Tracker Reviews
+  15       0.3043  STRONG    (very tight cluster)       Account Statement & Distribution Check-ins
+  17       0.3030  STRONG    (very tight cluster)       SAOS / Mortgage / Third-party Vendor Tasks
+  4        0.1430  STRONG    (very tight cluster)       Capital Calls, Distributions & Arch Verification
+  9        0.1263  STRONG    (very tight cluster)       Weekly Audits & Transaction Reconciliation
+  5        0.1213  STRONG    (very tight cluster)       Data Quality & Cost Basis Fixes
+  11       0.1051  STRONG    (very tight cluster)       Follow-up & Pending Escalations
+  10       0.1017  STRONG    (very tight cluster)       Client Portal & EPICC Access
+  12       0.0899  GOOD      (clearly defined)          Addepar View & Portal Configuration
+  7        0.0844  GOOD      (clearly defined)          Reporting & Dashboard Views
+  0        0.0766  GOOD      (clearly defined)          New Account Setup
+  6        0.0726  GOOD      (clearly defined)          Document & Statement Management
+  13       0.0708  GOOD      (clearly defined)          General Addepar / Arch Updates
+  8        0.0591  GOOD      (clearly defined)          Ownership Structure & Entity Changes
+  1        0.0547  GOOD      (clearly defined)          Addepar Account Updates
+  2        0.0503  GOOD      (clearly defined)          New Private Investment Entry
+  3        0.0348  MODERATE  (some vocabulary overlap)  Private Investment Updates & Valuations
+  16       0.0202  MODERATE  (some vocabulary overlap)  General Operations (Miscellaneous)
+
+  Topics with WEAK signal are the most likely to contain mixed content.
+  Review their spot-checks (Section 3) most carefully.
+
+========================================================================
+  3. PER-TOPIC SPOT CHECK  (10 random task names per cluster)
+========================================================================
+
+  For each cluster, read the task names and ask:
+    - Do these tasks share the same type of work?
+    - Are there any obvious mis-assignments?
+    - Does the business label accurately describe the cluster?
+
+  +-Topic  0-+-New Account Setup-+-240 tasks-+
+   1. Please create the new Schwab account as outlined by Carolina below for Dunlap  [New account]
+   2. Please investigate and resolve why the two Wells Fargo account ending in 2483 and 141  [General updates]
+   3. Please backfill transactions in Addepar resulting from the stop of a ByAll data feed 
+   4. Please create new wrap accounts as the Citi Private bank accounts for Epicc are comin
+   5. Set up access to Orca for Travis Long at Brown and notify him. **Include in email to 
+   6. Confirm the full ownership structure from Orca is loaded in Addepar to mirror Orca.  
+   7. Confirm Dorsar Wells Fargo accounts are feeding and get view-only access
+   8. blue owl capital account Boelte
+   9. Please set up the value based account in Addepar, referencing the attached form with   [New account]
+  10. Please back fill Kayne Anderson BDC Inc Class Equity in the online Schwab account end
+
+  +-Topic  1-+-Addepar Account Updates-+-149 tasks-+
+   1. Please close out the the accounts in Addepar outlined by Carolina in the task descrip  [General updates]
+   2. Databento - Series B Closing / NAV Update
+   3. General updates  [General updates]
+   4. Cai Family, General updates  [General updates]
+   5. Albanese, General updates  [General updates]
+   6. HM International Merge attribute import
+   7. [Addepar ] Patel Family Margin Reconciliation update
+   8. Investigate change of address for 2012 Porsche Cayenne
+   9. Please help us with a data backfill for Epicc (see description below)
+  10. Update Janet Wickens IRA x9185 - Account Closed
+
+  +-Topic  2-+-New Private Investment Entry-+-364 tasks-+
+   1. Please look into "DFI Investments - excl. 3 long-term" View on Addepar
+   2. Please add the new private investment for Mark Letsos as outlined by Carolina below.   [New private investment]
+   3. Follow up on Public Equity Reviews
+   4. Check in with Rodrigo to see if we can resume onboarding his personal accounts and in
+   5. Please update Samaritan Fund [Entity ID: 15874821] valuations
+   6. General updates  [General updates]
+   7. Hide any alternative investment positions coming through the JPM feed and Replace it 
+   8. Please add the benchmark, HFRI Fund of Funds Composite Index, to Addepar for referenc
+   9. Please assist with the ANC Orchard update per Jay’s email
+  10. Zeno Investment:
+
+  +-Topic  3-+-Private Investment Updates & Valuations-+-312 tasks-+
+   1. Please adjust Expense item for Global Secondary Opportunities Fund II, LP - DIP
+   2. Monthly task: unhide and update valuations from online to offline account for ML Feed
+   3. Follow up on 12/31 Manual Updates
+   4. DSC Investor 8505 LLC showing a 27.9% reduction value?
+   5. Please investigate why the commitments noted by Sarah below, do not show in the commi  [General updates]
+   6. Addepar Update - Scott Thomas IRA Rollover
+   7. Please update Diamond Realty Capital with the attached 2025 transactions provided by 
+   8. Please update Axcelus Financial Life insurance values
+   9. Craft Partners Warrants - Modify Commitment Amount to $0
+  10. Follow up on Context Capital Management Liquidity Terms Update
+
+  +-Topic  4-+-Capital Calls, Distributions & Arch Verification-+-833 tasks-+
+   1. Check all Arch capital calls
+   2. Check Arch capital calls
+   3. Check all Arch capital calls
+   4. Check all Arch capital calls
+   5. Check all Arch capital calls
+   6. Check all Arch capital calls
+   7. Noble Mortgage - Verify latest transactions have been captured by Arch
+   8. Noble Mortgage - Verify latest transactions have been captured by Arch
+   9. JSDE Arch valuation import | 2025-06-19
+  10. Check all Arch capital calls
+
+  +-Topic  5-+-Data Quality & Cost Basis Fixes-+-156 tasks-+
+   1. Addepar updates  [Addepar updates]
+   2. Northern Trust backfill project
+   3. Addepar updates  [Addepar updates]
+   4. Please update Goldman cost basis for Dorsar
+   5. Addepar updates  [Addepar updates]
+   6. Ian Raphael -  ITD benchmark not showing up  [General updates]
+   7. Addepar updates  [Addepar updates]
+   8. Confirm with SAOS that all data is ready for KnowLedger
+   9. Download Goldman cost basis data and ensure asset classes are properly documented
+  10. Download Goldman cost basis data
+
+  +-Topic  6-+-Document & Statement Management-+-166 tasks-+
+   1. Please record Mortgage - Exeter 1031 Exchange Services, LLC (400 N Marine) transactio
+   2. Perform virtual mailbox triage
+   3. Perform virtual mailbox triage
+   4. Addepar - Account statement upload - Stonex
+   5. Perform virtual mailbox triage
+   6. Please upload Zuger bank statements
+   7. Perform virtual mailbox triage
+   8. Please complete the statement upload for Abu Dhabi, Saxo and Zuger bank
+   9. Update Sandesh permissions in Egnyte to ensure he can move files to an Archive folder
+  10. Perform virtual mailbox triage
+
+  +-Topic  7-+-Reporting & Dashboard Views-+-79 tasks-+
+   1. Please replicate and ensure that the slides 6,7,11, and 13 in the Presentation powerp
+   2. CCP - view and report based views
+   3. FJ Report since inception dashing issues
+   4. Ensure Addepar alternative investments dashboard is updated and share the report
+   5. Please investigate and verify what the return of CPI + 4% should be and if CCP has th  [General updates]
+   6. FJ Report Changes
+   7. Pamela - CCP, Report showing no data available  [General updates]
+   8. Create first pass of Woodland dashboards in Addepar
+   9. Urgent  -  Performance Report
+  10. Please make the report updates as outlined below for Part 7, Page 8
+
+  +-Topic  8-+-Ownership Structure & Entity Changes-+-175 tasks-+
+   1. Create Fabetri ownership structure in Orca and Addepar
+   2. Update entity and direct owner IDs in Arch for Woodland Edge holdings
+   3. Please create an inter-entity loans for Goradia
+   4. Double check Ken Bohan's ownership structure in Orca against excel Melissa shared on 
+   5. Please remove the duplicate transactions attached
+   6. Begin updating Dume's vault in Orca
+   7. Please investigate why JLD 2012 Descendants has a Direct Owner ID noted, but JLG Desc
+   8. Please process the 5 StoneX files linked in the task description below
+   9. Double check the Green Grasshopper legal structure
+  10. Migrate CI Rollover Holdings to match Sage structure (see description)
+
+  +-Topic  9-+-Weekly Audits & Transaction Reconciliation-+-185 tasks-+
+   1. Mosaic Weekly Audits
+   2. Mosaic Q1 Bill run and validation
+   3. Send 400 N Marine Evernote statement to Amplify & SAOS
+   4. Review transactions in Quickbooks
+   5. Send 400 N Marine Evernote statement to Amplify & SAOS
+   6. Addepar monthly data review for Sage
+   7. billing audit with Ian
+   8. Review transactions in Quickbooks
+   9. Review transactions in Quickbooks
+  10. Review investor communications to ensure all key information is recorded in Arch and 
+
+  +-Topic 10-+-Client Portal & EPICC Access-+-82 tasks-+
+   1. Client contact cheat sheet
+   2. CCP billing review for new client
+   3. Please start preparing client playbooks that are similar to DFO's
+   4. Please reference Excel (link in the description below) and update the monthly values 
+   5. Please reference Excel (link in the description below) and update the monthly values 
+   6. Please complete the statement upload for Abu Dhabi, Saxo and Zuger bank
+   7. Please reference Excel (link in the description below) and update the monthly values 
+   8. Look into Brad's emails about Access. Review Arch's response about NGP
+   9. Boelte Add holding account and security to 4 owners
+  10. Please reference Excel (link in the description below) and update the monthly values 
+
+  +-Topic 11-+-Follow-up & Pending Escalations-+-104 tasks-+
+   1. Send Bill the latest Excel for his change in value calculations and latest PDF as wel
+   2. Check Arch for Q423 capital account statements for Dorsar private investments
+   3. Mail distribution
+   4. Check Arch for Q423 capital account statements for Dorsar private investments
+   5. Check Arch for Q423 capital account statements for Dorsar private investments
+   6. Provide progress report on Estate settlement
+   7. Provide progress report on Estate settlement
+   8. Review Pat's email
+   9. Reach out to Egnyte to set up time to assist with Christine's access
+  10. Evaluate SAOS email on data issue for Woodland account at Morgan Stanley
+
+  +-Topic 12-+-Addepar View & Portal Configuration-+-61 tasks-+
+   1. Addepar View update
+   2. Remove access to all programs on 3/30/2026 for Christine Rath, Jeannie Johnson, and C
+   3. Please give Empaxis access to the reports section in Addepar
+   4. Deactivate or delete Trousdale users from tosadv.egnyte once all users have logged in
+   5. View Access AWB
+   6. Send Addepar access to SAOS
+   7. Please modify my access for TOS EU to include saving Team-Specific views
+   8. Please create an Egnyte folder for DFO and add Jin P from Andersen as a power user
+   9. View Access
+  10. Please give me access to Outwing LLC/Stable Road in Addepar
+
+  +-Topic 13-+-General Addepar / Arch Updates-+-173 tasks-+
+   1. Ask Arch to look into items in "to be fixed' tab
+   2. Mighty - Arch & Addepar updates
+   3. Check IDs in Arch against Addepar to make sure nothing got disconnected in changing/u
+   4. Remidner task to check on the task linked below in description (Please update the Sch
+   5. Addepar updates  [Addepar updates]
+   6. Updating LOC balances and recording transactions in Addepar
+   7. Camp private update
+   8. Review Arch to identify which deals can be moved to Addepar (such as holdings without
+   9. Addepar updates  [Addepar updates]
+  10. Ask Arch to enable the daily digest for Ed & Ken
+
+  +-Topic 14-+-Onboarding Tracker Reviews-+-69 tasks-+
+   1. Review and update all onboarding projects in the tracker
+   2. Review and update all onboarding projects in the tracker
+   3. Mail distribution
+   4. Review and update all onboarding projects in the tracker
+   5. Mail distribution
+   6. Review and update all onboarding projects in the tracker
+   7. Review and update all onboarding projects in the tracker
+   8. Mail distribution
+   9. Mail distribution
+  10. Review and update all onboarding projects in the tracker
+
+  +-Topic 15-+-Account Statement & Distribution Check-ins-+-51 tasks-+
+   1. Check-in with Sheryl - do you need your full distribution?
+   2. Check Arch for Q423 capital account statements for Dorsar private investments
+   3. Check Arch for Q423 capital account statements for Dorsar private investments
+   4. Check-in with Elaine - do you need your full distribution?
+   5. Check Arch for Q423 capital account statements for Dorsar private investments
+   6. [Converted to template] Begin the process of transferring Lynley's annualized distrib
+   7. Check Arch for Q423 capital account statements for Dorsar private investments
+   8. Check Arch for Q423 capital account statements for Dorsar private investments
+   9. Check-in with Elaine - do you need your full distribution?
+  10. Check Arch for Q423 capital account statements for Dorsar private investments
+
+  +-Topic 16-+-General Operations (Miscellaneous)-+-898 tasks-+
+   1. Update Walter's Orca structure
+   2. Look into Sarah's email - Stone X
+   3. Woodland Entities - Collier Liberty Distribution amount confirmation
+   4. Work on a previous year milestone report and update action plan for the year ahead
+   5. Cherry Family Drop Update
+   6. Follow up with Nate on report requested for DFO
+   7. DEV COMMUNITY INC. - for PJS
+   8. Frost brokerage statement
+   9. Upgrade Haley's Nines permissions once Tammy approves
+  10. Dorsar report issue research and fix
+
+  +-Topic 17-+-SAOS / Mortgage / Third-party Vendor Tasks-+-63 tasks-+
+   1. Send Baldwin Ranch mortgage statements to SAOS
+   2. Order new AMEX for Brandee
+   3. Send Baldwin Ranch mortgage statements to SAOS
+   4. Update the master cc spreadsheet with LW card
+   5. Send Baldwin Ranch mortgage statements to SAOS
+   6. Request Damien's phone bill from Richfield
+   7. Send Baldwin Ranch mortgage statements to SAOS
+   8. Request Damien's phone bill from Richfield
+   9. Please activate two new phones lines for DCS on the Dume account. One line should beg
+  10. Check JPM DRLLC card (Simona) for refund
+
+========================================================================
+  4. BERTOPIC vs EXISTING ASANA 'Issue type' / 'Issue sub-type'
+========================================================================
+
+  -- Issue type --
+  Rows with 'Issue type' filled: 554 of 4,278 (12.9%)
+
+  For each BERTopic cluster, top existing 'Issue type' labels:
+
+  Topic  0 | New Account Setup | 39 tagged rows
+       28   71.8%  #################  Account updates
+        8   20.5%  #####  Account connection
+        2    5.1%  #  Missing data
+        1    2.6%  #  Data classification
+
+  Topic  1 | Addepar Account Updates | 52 tagged rows
+       22   42.3%  ##########  Account updates
+       13   25.0%  ######  Missing data
+        7   13.5%  ###  Investment update
+        4    7.7%  #  Data classification
+        3    5.8%  #  Missing attribute
+
+  Topic  2 | New Private Investment Entry | 78 tagged rows
+       33   42.3%  ##########  Investment update
+       31   39.7%  #########  Account updates
+        5    6.4%  #  Data classification
+        4    5.1%  #  Missing data
+        3    3.8%  #  Create/update Addepar views
+
+  Topic  3 | Private Investment Updates & Valuations | 64 tagged rows
+       35   54.7%  #############  Investment update
+       14   21.9%  #####  Account updates
+        6    9.4%  ##  Missing data
+        4    6.2%  #  Data classification
+        3    4.7%  #  Performance anomaly
+
+  Topic  4 | Capital Calls, Distributions & Arch Verification | 14 tagged rows
+        6   42.9%  ##########  Account updates
+        3   21.4%  #####  Investment update
+        3   21.4%  #####  Data classification
+        2   14.3%  ###  Missing data
+
+  Topic  5 | Data Quality & Cost Basis Fixes | 10 tagged rows
+        5   50.0%  ############  Missing data
+        2   20.0%  #####  Investment update
+        1   10.0%  ##  Data classification
+        1   10.0%  ##  Account updates
+        1   10.0%  ##  Performance anomaly
+
+  Topic  6 | Document & Statement Management | 17 tagged rows
+        8   47.1%  ###########  Account updates
+        4   23.5%  #####  Missing data
+        4   23.5%  #####  Investment update
+        1    5.9%  #  Arch investment updates
+
+  Topic  7 | Reporting & Dashboard Views | 12 tagged rows
+        5   41.7%  ##########  Create/update Addepar views
+        3   25.0%  ######  Account updates
+        2   16.7%  ####  Missing data
+        1    8.3%  ##  Performance anomaly
+        1    8.3%  ##  Data classification
+
+  Topic  8 | Ownership Structure & Entity Changes | 23 tagged rows
+        9   39.1%  #########  Account updates
+        6   26.1%  ######  Investment update
+        5   21.7%  #####  Ownership structure update
+        2    8.7%  ##  Data classification
+        1    4.3%  #  Missing data
+
+  Topic  9 | Weekly Audits & Transaction Reconciliation | 9 tagged rows
+        5   55.6%  #############  Account updates
+        2   22.2%  #####  Data classification
+        1   11.1%  ##  Investment update
+        1   11.1%  ##  Missing data
+
+  Topic 10 | Client Portal & EPICC Access | 7 tagged rows
+        7  100.0%  #########################  Account updates
+
+  Topic 11 | Follow-up & Pending Escalations | 7 tagged rows
+        4   57.1%  ##############  Account updates
+        2   28.6%  #######  Investment update
+        1   14.3%  ###  Missing data
+
+  Topic 12 | Addepar View & Portal Configuration | 9 tagged rows
+        5   55.6%  #############  Create/update Addepar views
+        2   22.2%  #####  Data classification
+        2   22.2%  #####  Account updates
+
+  Topic 13 | General Addepar / Arch Updates | 25 tagged rows
+       11   44.0%  ###########  Account updates
+        4   16.0%  ####  Investment update
+        4   16.0%  ####  Missing data
+        3   12.0%  ###  Data classification
+        2    8.0%  ##  Account connection
+
+  Topic 16 | General Operations (Miscellaneous) | 186 tagged rows
+       78   41.9%  ##########  Account updates
+       48   25.8%  ######  Investment update
+       20   10.8%  ##  Missing data
+       13    7.0%  #  Data classification
+        9    4.8%  #  Create/update Addepar views
+
+  Reverse view -- top BERTopic cluster per Asana 'Issue type' label:
+
+  'Account updates' (230 tasks)
+      -> 34%  General Operations (Miscellaneous)
+      -> 13%  New Private Investment Entry
+      -> 12%  New Account Setup
+
+  'Investment update' (145 tasks)
+      -> 33%  General Operations (Miscellaneous)
+      -> 24%  Private Investment Updates & Valuations
+      -> 23%  New Private Investment Entry
+
+  'Missing data' (65 tasks)
+      -> 31%  General Operations (Miscellaneous)
+      -> 20%  Addepar Account Updates
+      -> 9%  Private Investment Updates & Valuations
+
+  'Data classification' (41 tasks)
+      -> 32%  General Operations (Miscellaneous)
+      -> 12%  New Private Investment Entry
+      -> 10%  Addepar Account Updates
+
+  'Create/update Addepar views' (26 tasks)
+      -> 35%  General Operations (Miscellaneous)
+      -> 19%  Addepar View & Portal Configuration
+      -> 19%  Reporting & Dashboard Views
+
+  'Account connection' (12 tasks)
+      -> 67%  New Account Setup
+      -> 17%  General Addepar / Arch Updates
+      -> 17%  General Operations (Miscellaneous)
+
+  'Performance anomaly' (12 tasks)
+      -> 50%  General Operations (Miscellaneous)
+      -> 25%  Private Investment Updates & Valuations
+      -> 8%  New Private Investment Entry
+
+  'Ownership structure update' (8 tasks)
+      -> 62%  Ownership Structure & Entity Changes
+      -> 25%  General Operations (Miscellaneous)
+      -> 12%  New Private Investment Entry
+
+  'Missing attribute' (8 tasks)
+      -> 50%  General Operations (Miscellaneous)
+      -> 38%  Addepar Account Updates
+      -> 12%  Private Investment Updates & Valuations
+
+  'Arch investment updates' (7 tasks)
+      -> 57%  General Operations (Miscellaneous)
+      -> 14%  Outliers / Unclassified
+      -> 14%  Private Investment Updates & Valuations
+
+  -- Issue sub-type --
+  Rows with 'Issue sub-type' filled: 85 of 4,278 (2.0%)
+
+  For each BERTopic cluster, top existing 'Issue sub-type' labels:
+
+  Topic  0 | New Account Setup | 3 tagged rows
+        1   33.3%  ########  Account did not update
+        1   33.3%  ########  Missing data
+        1   33.3%  ########  Add a new entity
+
+  Topic  1 | Addepar Account Updates | 3 tagged rows
+        2   66.7%  ################  Account statement
+        1   33.3%  ########  Update display name
+
+  Topic  2 | New Private Investment Entry | 10 tagged rows
+        4   40.0%  ##########  Add a new investment
+        2   20.0%  #####  Changes to a particular Addepar view
+        1   10.0%  ##  Ad-hoc/miscellaneous
+        1   10.0%  ##  Orca general updates
+        1   10.0%  ##  Add a new Household
+
+  Topic  3 | Private Investment Updates & Valuations | 9 tagged rows
+        7   77.8%  ###################  Update valuation
+        1   11.1%  ##  Add a new investment
+        1   11.1%  ##  Capital call request
+
+  Topic  4 | Capital Calls, Distributions & Arch Verification | 4 tagged rows
+        1   25.0%  ######  Missing data
+        1   25.0%  ######  Add a promissory note
+        1   25.0%  ######  Update valuation
+        1   25.0%  ######  Add a new investment
+
+  Topic  5 | Data Quality & Cost Basis Fixes | 2 tagged rows
+        1   50.0%  ############  Adjusted cost basis
+        1   50.0%  ############  Update cost basis
+
+  Topic  6 | Document & Statement Management | 9 tagged rows
+        3   33.3%  ########  Cash flow upload
+        2   22.2%  #####  Account statement
+        1   11.1%  ##  Missing historical data
+        1   11.1%  ##  Statement update/upload
+        1   11.1%  ##  Missing distribution upload
+
+  Topic  7 | Reporting & Dashboard Views | 3 tagged rows
+        2   66.7%  ################  Changes to a particular Addepar view
+        1   33.3%  ########  PDF report updates
+
+  Topic  8 | Ownership Structure & Entity Changes | 4 tagged rows
+        3   75.0%  ##################  Update ownership in Addepar/Orca
+        1   25.0%  ######  Update valuation
+
+  Topic  9 | Weekly Audits & Transaction Reconciliation | 1 tagged rows
+        1  100.0%  #########################  Missing historical data
+
+  Topic 11 | Follow-up & Pending Escalations | 1 tagged rows
+        1  100.0%  #########################  Exit position
+
+  Topic 12 | Addepar View & Portal Configuration | 1 tagged rows
+        1  100.0%  #########################  Dashboard update
+
+  Topic 13 | General Addepar / Arch Updates | 1 tagged rows
+        1  100.0%  #########################  Safe conversion
+
+  Topic 16 | General Operations (Miscellaneous) | 34 tagged rows
+        8   23.5%  #####  Add a new investment
+        4   11.8%  ##  PDF report updates
+        4   11.8%  ##  Changes to a particular Addepar view
+        3    8.8%  ##  Missing data
+        2    5.9%  #  Missing historical data
+
+  Reverse view -- top BERTopic cluster per Asana 'Issue sub-type' label:
+
+  'Add a new investment' (14 tasks)
+      -> 57%  General Operations (Miscellaneous)
+      -> 29%  New Private Investment Entry
+      -> 7%  Private Investment Updates & Valuations
+
+  'Update valuation' (11 tasks)
+      -> 64%  Private Investment Updates & Valuations
+      -> 18%  General Operations (Miscellaneous)
+      -> 9%  Capital Calls, Distributions & Arch Verification
+
+  'Changes to a particular Addepar view' (8 tasks)
+      -> 50%  General Operations (Miscellaneous)
+      -> 25%  New Private Investment Entry
+      -> 25%  Reporting & Dashboard Views
+
+  'PDF report updates' (5 tasks)
+      -> 80%  General Operations (Miscellaneous)
+      -> 20%  Reporting & Dashboard Views
+
+  'Account statement' (5 tasks)
+      -> 40%  Addepar Account Updates
+      -> 40%  Document & Statement Management
+      -> 20%  General Operations (Miscellaneous)
+
+  'Missing data' (5 tasks)
+      -> 60%  General Operations (Miscellaneous)
+      -> 20%  Capital Calls, Distributions & Arch Verification
+      -> 20%  New Account Setup
+
+  'Update ownership in Addepar/Orca' (4 tasks)
+      -> 75%  Ownership Structure & Entity Changes
+      -> 25%  General Operations (Miscellaneous)
+
+  'Cash flow upload' (4 tasks)
+      -> 75%  Document & Statement Management
+      -> 25%  General Operations (Miscellaneous)
+
+  'Missing historical data' (4 tasks)
+      -> 50%  General Operations (Miscellaneous)
+      -> 25%  Document & Statement Management
+      -> 25%  Weekly Audits & Transaction Reconciliation
+
+  'Ad-hoc/miscellaneous' (3 tasks)
+      -> 67%  General Operations (Miscellaneous)
+      -> 33%  New Private Investment Entry
+
+  'Statement update/upload' (2 tasks)
+      -> 50%  Document & Statement Management
+      -> 50%  General Operations (Miscellaneous)
+
+  'Orca general updates' (2 tasks)
+      -> 50%  New Private Investment Entry
+      -> 50%  General Operations (Miscellaneous)
+
+  'Update cost basis' (2 tasks)
+      -> 50%  Data Quality & Cost Basis Fixes
+      -> 50%  Document & Statement Management
+
+  'Missing distribution upload' (2 tasks)
+      -> 50%  General Operations (Miscellaneous)
+      -> 50%  Document & Statement Management
+
+  'Asset class' (1 tasks)
+      -> 100%  General Operations (Miscellaneous)
+
+
+========================================================================
+  5. OUTLIER ANALYSIS  (20 sampled tasks from topic -1)
+========================================================================
+
+  These 118 tasks were not assigned to any cluster.
+  Look for hidden patterns: any group of 5+ similar tasks
+  might warrant a new seed topic and a model re-run.
+
+   1. Send Teal Tuna LOC statement to SAOS  [status=Completed]
+   2. Begin gathering data for April estimated taxes  [status=Completed]
+   3. Begin gathering data for January estimated taxes  [status=Recurring]
+   4. Send Teal Tuna LOC statement to SAOS  [status=Completed]
+   5. Review and update all onboarding projects in the tracker  [status=Completed]
+   6. Send 400 N Marine Evernote statement to Amplify  [status=Completed]
+   7. See if Carl can send his own wire transfers from USCA and eventually consider cl  [status=Completed]
+   8. Process Dume Ranch Co payroll  [status=Recurring]
+   9. Begin gathering data for April estimated taxes  [status=Completed]
+  10. Send 400 N Marine Evernote statement to Elevate & SAOS  [status=Completed]
+  11. Check the kickstart funds in Arch in the attachment from Russ to see if there is  [status=Completed]
+  12. Send 400 N Marine Evernote statement to Amplify  [status=Completed]
+  13. Begin gathering data for April estimated taxes  [status=Completed]
+  14. Send Teal Tuna LOC statement to Amplify  [status=Completed]
+  15. Send 400 N Marine Evernote statement to Elevate & SAOS  [status=Completed]
+  16. 2Q22 priorities  [status=Completed]
+  17. Begin gathering data for January estimated taxes  [status=Completed]
+  18. Begin gathering data for June estimated taxes  [status=In progress]
+  19. Meet with SAOS for a quick sync to discuss feedback from prior months books  [status=Completed]
+  20. Meet with SAOS for a quick sync to discuss feedback from prior months books  [status=Completed]
+
+  Full outlier list: filter complaints_classified.csv for topic_id == -1
+  (Total: 118 rows)
+
+========================================================================
+  6. VALIDATION CHECKLIST
+========================================================================
+
+  Work through each item. Check it off when satisfied.
+
+  SPOT-CHECK (Section 3)
+  [ ] All tasks within each topic share a coherent operational theme
+  [ ] No obvious mis-assignments visible in the 10-task samples
+  [ ] Business labels in BUSINESS_LABELS dict match your intent
+
+  CROSS-TABULATION (Section 4)
+  [ ] BERTopic topics broadly align with existing Asana Issue type labels
+  [ ] Any divergence is explainable (e.g. BERTopic is more granular)
+  [ ] No BERTopic topic is dominated by a single unexpected Asana label
+
+  OUTLIERS (Section 5)
+  [ ] Outlier tasks are genuinely unique or edge-cases
+  [ ] No hidden sub-group of 10+ similar tasks visible in the sample
+
+  COHERENCE (Section 2)
+  [ ] WEAK-signal topics reviewed and labels confirmed as accurate
+  [ ] Topic 16 (General Operations) accepted as intended catch-all
+
+  TAXONOMY SIGN-OFF
+  [ ] Final 18 business labels reviewed and approved by domain expert
+  [ ] complaints_classified.csv ready to share with stakeholders
+
+  IF ALL BOXES CHECKED -> taxonomy is ready. Proceed to Phase 9 (classifier)
+  IF ISSUES FOUND      -> note topic IDs and adjust BUSINESS_LABELS or seeds
+
+========================================================================
+  VALIDATION COMPLETE
+  Saved -> validation_report.txt
+========================================================================

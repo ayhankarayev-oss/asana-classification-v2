@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large binary files (embeddings)
+outputs/embeddings.npy
+
+# Sensitive data - raw Asana export with PII
+data/raw/
+*.xlsx
+asana_export*.csv
+Client_support.csv
+archive_v1/complaints_classified.csv
+archive_v1/corpus_clean.csv
+archive_v1/issue_classifier.pkl
+
+# Corpus with potentially sensitive text
+outputs/corpus_clean.csv
+outputs/training_data.csv
+
+# Reports HTML can be large but we want them tracked
+# outputs/reports/*.html  -- KEEP these tracked
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/

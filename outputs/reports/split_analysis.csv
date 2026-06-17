@@ -1,0 +1,24 @@
+﻿topic_id,split_recommended,silhouette,sub_a_count,sub_b_count,sub_a_keywords,sub_b_keywords,reason
+0,False,0.06264195591211319,221,69,"['person', 'updates', 'accounts', 'account', 'general']","['email', 'new', 'contact', 'account', 'new account']",Silhouette=0.063 < threshold
+1,False,0.0985284224152565,147,97,"['person', 'private', 'investment', 'private investment', 'new']","['llc', 'person', 'client', 'direct', 'owner']",Silhouette=0.099 < threshold
+2,False,0.10425066202878952,51,70,"['cost', 'basis', 'cost basis', 'need', 'client']","['client', 'invoices', 'sent', 'email', 'invoices sent']",Silhouette=0.104 < threshold
+3,False,0.1363440304994583,46,98,"['client', 'commitment', 'person', '000', 'id']","['cash', 'client', 'excel', 'file', 'person']",Silhouette=0.136 < threshold
+4,False,0.11576096713542938,89,52,"['access', 'person', 'email', 'person person', 'person access']","['person', 'client', 'client person', 'create', 'add']",Silhouette=0.116 < threshold
+5,False,0.11059540510177612,90,43,"['person', 'update', 'users', 'person person', 'accounts']","['email', 'person', 'updates', 'person email', 'new']",Silhouette=0.111 < threshold
+6,False,0.12830045819282532,67,55,"['updates', 'person', 'asset', 'client', 'class']","['asset', 'class', 'attribute', 'client', 'asset class']",Silhouette=0.128 < threshold
+7,True,0.19661438465118408,96,50,"['client', 'report', 'update', 'private', 'private client']","['report', 'portal', 'view', 'client', 'person']",Silhouette=0.197 > threshold
+8,False,0.08230642974376678,46,50,"['person', 'client', 'llc', 'series', 'person llc']","['update', 'client', 'person', 'email', 'convertible']",Silhouette=0.082 < threshold
+9,False,0.11063212901353836,98,27,"['ownership', 'person', 'client', 'llc', 'trust']","['new', 'legal', 'entity', 'person', 'formation']",Silhouette=0.111 < threshold
+10,True,0.6564683318138123,22,59,"['valuation', 'update', 'valuation update', 'valuations', '31']","['valuation', 'import', 'valuation import', '2025', 'import 2025']",Silhouette=0.656 > threshold
+11,False,0.08685433119535446,78,130,"['month', 'client', 'onboarding', 'template', 'person']","['client', 'llc', 'person', 'investments', 'lp']",Silhouette=0.087 < threshold
+12,False,0.14628973603248596,25,43,"['new', 'loan', 'promissory', 'person', 'new loan']","['loan', 'client', 'person', '000', 'investment']",Silhouette=0.146 < threshold
+13,False,0.14150282740592957,34,31,"['client', 'id', 'investments', 'private', 'id id']","['id', 'id id', 'class', 'private', 'investors']",Silhouette=0.142 < threshold
+14,True,0.1744571179151535,22,49,"['blended', 'benchmarks', 'benchmark', 'performance', 'update']","['cash', 'performance', 'client', 'investigate', 'view']",Silhouette=0.174 > threshold
+15,False,0.14284582436084747,12,50,"['client', 'statement', 'dhabi', 'abu dhabi', 'statements']","['backfill', 'accounts', 'data', 'account', 'client']",Silhouette=0.143 < threshold
+16,True,0.21121445298194885,14,58,"['update', 'statement', 'gpf', 'iii', 'euros']","['person', 'distribution', 'received', 'client', 'distributions']",Silhouette=0.211 > threshold
+17,True,0.15189144015312195,30,64,"['audit', 'watford', 'person', 'client', 'update']","['view', 'asset', 'client', 'id', 'owner']",Silhouette=0.152 > threshold
+18,True,0.15308156609535217,23,35,"['nav', 'dfi', 'value', 'id', 'id id']","['missing', 'data', 'missing data', 'person', 'updates']",Silhouette=0.153 > threshold
+19,False,0.09227340668439865,69,71,"['updates', 'person', 'reports', 'report', 'follow']","['general', 'updates', 'person', 'email', 'client']",Silhouette=0.092 < threshold
+20,False,0.0981159582734108,20,32,"['update', 'axcelus', 'financial', 'values', 'axcelus financial']","['person', '31', '25', '30', 'client']",Silhouette=0.098 < threshold
+21,True,0.3640335500240326,33,22,"['cost', 'basis', 'cost basis', 'client', 'update']","['vintage', 'client', 'fund', 'expense', 'vi']",Silhouette=0.364 > threshold
+22,False,0.08751805126667023,55,40,"['general', 'updates', 'email', 'person', 'general updates']","['person', 'trust', 'client', '31', '25']",Silhouette=0.088 < threshold

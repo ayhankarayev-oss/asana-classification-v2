@@ -1,0 +1,30 @@
+# ============================================================
+# Client Complaint Classification — BERTopic Pipeline
+# Python 3.11.9 | Windows 11
+# ============================================================
+#
+# HDBSCAN NOTE: Do NOT install the standalone 'hdbscan' package.
+# It requires Cython compilation and fails on Windows / Python 3.11.
+# sklearn.cluster.HDBSCAN (available in scikit-learn >= 1.3) is a
+# full pre-compiled drop-in replacement that BERTopic accepts natively.
+# ============================================================
+
+# --- Core data handling (Phase 0 only needs this) ---
+pandas==2.2.2
+openpyxl==3.1.4                  # only needed if exporting to .xlsx
+
+# --- BERTopic and its direct dependencies ---
+bertopic==0.16.4
+sentence-transformers==3.0.1     # semantic embeddings
+umap-learn==0.5.6                # dimensionality reduction
+
+# --- Clustering: use scikit-learn's built-in HDBSCAN ---
+scikit-learn==1.5.1              # includes sklearn.cluster.HDBSCAN (>= 1.3)
+hdbscan==0.8.38.post1            # only install if the above fails — try scikit-learn first
+
+# --- Visualization ---
+plotly==5.22.0
+
+# --- Utilities ---
+numpy==1.26.4                    # pin to 1.x for broadest compatibility with torch/tf deps
+tqdm==4.66.4                     # progress bars (used internally by sentence-transformers)

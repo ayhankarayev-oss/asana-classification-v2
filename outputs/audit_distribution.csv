@@ -1,0 +1,79 @@
+﻿Topic_ID,Count,Pct,Name
+0,176,6.540319583797845,new private_private investment_investment_private
+17,73,2.7127461910070605,ownership_50_ci_ci rollover
+2,71,2.6384243775548124,valuation_valuations_valuation update_update
+20,67,2.489780750650316,daipe_pe_real estate_estate
+1,65,2.4154589371980677,backfill_accounts_data_account
+3,61,2.266815310293571,person_update person_person statements_users
+7,61,2.266815310293571,missing_missing data_data optional_data missing
+4,60,2.229654403567447,new account_account_contact_new
+5,59,2.192493496841323,accounts_feeding_wrapper_accounts feeding
+34,58,2.155332590115199,deposit_dor_dor client_jod
+19,54,2.0066889632107023,support_guide_affect_client support
+8,54,2.0066889632107023,client positions_private client_client_master list
+12,52,1.932367149758454,person client_client person_user_client accounts
+13,47,1.7465626161278336,devops_ma_owner_direct owner
+25,47,1.7465626161278336,report_client report_report issue_client weekly
+14,47,1.7465626161278336,person llc_series_pkus_preferred
+33,44,1.6350798959494612,access_user_person access_access client
+9,44,1.6350798959494612,jsde_missing_missing attribute_class
+6,42,1.560758082497213,asset_asset class_class_asset classes
+47,42,1.560758082497213,deals_direct deals_dont_investments
+15,41,1.5235971757710889,client calls_calls_complete_check
+38,40,1.4864362690449646,client private_private client_interests_dai
+10,38,1.4121144555927163,distribution_distribution received_4618_received
+11,38,1.4121144555927163,onboarding_template_confirm_tab
+18,38,1.4121144555927163,report_pg_geib_page
+22,38,1.4121144555927163,card_cards_pay_credit
+61,37,1.3749535488665925,access_credentials_follow_access account
+76,36,1.3377926421404682,commitment_add commitment_pic_leeds
+28,36,1.3377926421404682,jsde valuation_valuation import_import_valuation
+16,35,1.3006317354143442,performance_cash_investigate_return
+50,34,1.26347082868822,loans_loan_lender person_client borrower
+43,34,1.26347082868822,access person_person access_access_person person
+77,33,1.2263099219620959,plan_start_bucket_life
+41,32,1.1891490152359718,column_excel_import_vba
+48,31,1.1519881085098476,balance_fbo_1987_gj
+39,31,1.1519881085098476,unfunded_commitment_remaining_end month
+23,29,1.0776662950575995,jsde_market cap_attribute_market
+21,29,1.0776662950575995,cost_cost basis_basis_missing cost
+29,28,1.0405053883314752,accounts_account list_connected_list
+24,28,1.0405053883314752,benchmark_commentary_performance_v2
+37,26,0.966183574879227,users_accounts_person account_profile
+63,26,0.966183574879227,dashing_investigate_view_total
+32,26,0.966183574879227,entity_formation_legal_new legal
+26,26,0.966183574879227,loan_promissory_promissory note_lender
+30,26,0.966183574879227,email person_email_review_person email
+27,25,0.929022668153103,cost basis_cost_basis_select
+44,25,0.929022668153103,view_viewset_portal_portal view
+31,25,0.929022668153103,id_id id_private investors_investors
+58,25,0.929022668153103,forum_usca_private client_gainloss
+49,24,0.8918617614269788,employee employee_send_employee_mail
+40,24,0.8918617614269788,invoices_sent email_sent_email client
+45,24,0.8918617614269788,cash flows_flows_cash_cash flow
+35,23,0.8547008547008548,expense_vintage fund_fund vi_vintage
+36,23,0.8547008547008548,registration_mail_address_vehicle
+42,23,0.8547008547008548,updates update_update value_general updates_general
+66,23,0.8547008547008548,convertible_convertible note_note_havocai
+46,23,0.8547008547008548,delete_remove_transfer_clovis
+69,23,0.8547008547008548,cash transactions_transactions_follow cash_cash
+59,23,0.8547008547008548,opportunities_security wrapper_lendable opportunities_wrapper
+64,22,0.8175399479747306,empaxis_remove_board_views
+57,21,0.7803790412486065,ownership change_ownership_change_change person
+75,20,0.7432181345224823,account_account ending_updates investigate_general updates
+52,19,0.7060572277963582,general updates_general_updates_email general
+51,19,0.7060572277963582,person valuation_valuation update_valuation_person value
+54,19,0.7060572277963582,adcb_zuger_bank_statements
+70,19,0.7060572277963582,task_reminder_task update_follow person
+68,18,0.6688963210702341,portal_portal add_views_persons portal
+56,18,0.6688963210702341,valuation import_jsde valuation_import_valuation
+60,17,0.63173541434411,update value_value based_updates update_based
+53,16,0.5945745076179859,mortgage_stable_stable road_road
+55,15,0.5574136008918618,euros_statement_usd_iii
+73,15,0.5574136008918618,account connection_connection_updates account_connection issue
+65,15,0.5574136008918618,meeting_schedule_schedule meeting_thursday
+62,14,0.5202526941657376,jsde valuation_valuation import_import_jsde
+67,14,0.5202526941657376,cb_tultepec_diegos_diego
+72,13,0.4830917874396135,online_hide_offshore_hide online
+71,12,0.4459308807134894,uvf_uvf client_daily task_task uvf
+74,12,0.4459308807134894,hmi_a2a_merge_hmi merge

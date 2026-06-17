@@ -1,0 +1,24 @@
+﻿topic_id,business_pillar,business_name,doc_count,pct,coherence,confidence,label_valid,notes,merge_with,split_recommended,action
+0,Account Operations,New Account Onboarding,290,10.8,0.358,OK,True,Consider merging with topic(s): 22,22,False,REVIEW
+15,Account Operations,Historical Data Backfill,62,2.3,0.398,HIGH,True,Consider merging with topic(s): 3,3,False,REVIEW
+6,Data & Valuation,Missing Data & Attributes,122,4.5,0.3,HIGH,True,Cluster is cohesive and well-labeled,,False,APPROVED
+10,Data & Valuation,Scheduled Valuation Feeds,81,3.0,0.767,HIGH,True,Split recommended (silhouette=0.656),,True,REVIEW
+13,Data & Valuation,Position Cleanup & Deduplication,65,2.4,0.341,HIGH,True,"Consider merging with topic(s): 8, 22",8|22,False,REVIEW
+18,Data & Valuation,Missing Data & Attributes,58,2.2,0.433,HIGH,True,"Split recommended (silhouette=0.153); Consider merging with topic(s): 1, 3, 8",1|3|8|20|22,True,REVIEW
+21,Data & Valuation,Cost Basis Reconciliation,55,2.0,0.489,HIGH,True,Split recommended (silhouette=0.364),,True,REVIEW
+1,Investment Management,New Private Investment Setup,244,9.1,0.382,LOW,False,"Low confidence - consider absorbing into similar cluster; Consider merging with topic(s): 3, 8, 12",3|8|12|18|20|22,False,REVIEW
+3,Investment Management,Commitment & Capital Call Tracking,144,5.4,0.308,OK,True,"Consider merging with topic(s): 1, 8, 15",1|8|15|18|20|22,False,REVIEW
+8,Investment Management,Security & Position Updates,96,3.6,0.396,OK,True,"Consider merging with topic(s): 1, 3, 12",1|3|12|13|18|20|22,False,REVIEW
+12,Investment Management,Debt & Lending Instruments,68,2.5,0.431,HIGH,True,"Consider merging with topic(s): 1, 8",1|8,False,REVIEW
+11,Operations & Admin,Recurring Data Maintenance & Audits,208,7.8,0.279,OK,True,Cluster is cohesive and well-labeled,,False,APPROVED
+4,Operations & Admin,Access & Permission Requests,141,5.3,0.295,OK,True,Cluster is cohesive and well-labeled,,False,APPROVED
+19,Operations & Admin,"Meetings, Reminders & Follow-ups",140,5.2,0.281,LOW,False,Low confidence - consider absorbing into similar cluster,,False,REVIEW
+5,Operations & Admin,Contact & User Updates,133,5.0,0.341,OK,True,Cluster is cohesive and well-labeled,,False,APPROVED
+16,Operations & Admin,Distribution & Income Recording,72,2.7,0.363,OK,True,Split recommended (silhouette=0.211); Consider merging with topic(s): 22,22,True,REVIEW
+9,Ownership & Structure,Ownership & Trust Structure,125,4.7,0.399,OK,True,Cluster is cohesive and well-labeled,,False,APPROVED
+22,Ownership & Structure,Asset Transfers & Movements,95,3.5,0.348,OK,True,"Consider merging with topic(s): 0, 1, 3",0|1|3|8|13|16|18|20,False,REVIEW
+7,Reporting & Portal,Client Report & View Management,146,5.4,0.281,OK,True,Split recommended (silhouette=0.197),,True,REVIEW
+2,Reporting & Portal,Invoicing & Billing,121,4.5,0.295,HIGH,True,Cluster is cohesive and well-labeled,,False,APPROVED
+17,Reporting & Portal,Client Report & View Management,94,3.5,0.326,OK,True,Split recommended (silhouette=0.152),,True,REVIEW
+14,Reporting & Portal,Investment Performance Analysis,71,2.6,0.302,HIGH,True,Split recommended (silhouette=0.174),,True,REVIEW
+20,Uncategorized,Unclassified (Topic 20),52,1.9,0.372,HIGH,True,"Consider merging with topic(s): 1, 3, 8",1|3|8|18|22,False,REVIEW

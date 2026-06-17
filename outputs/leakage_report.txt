@@ -1,0 +1,285 @@
+FULL LEAKAGE REPORT
+================================================================================
+
+
+BOILERPLATE: 12 occurrences
+--------------------------------------------------------------------------------
+Row 277 | task_id=1214976684414127
+  Value: additional information
+  Context: [onboarding] kick off call - next steps email please send the email after the client kickoff call. t
+
+Row 318 | task_id=1214644887500599
+  Value: additional information
+  Context: general updates please review the private investments coming through the data feed, and add the comm
+
+Row 1065 | task_id=1212239854875404
+  Value: additional information
+  Context: please update the august, september, october, and november valuations for etrade account x19113, ref
+
+Row 1129 | task_id=1211910490512821
+  Value: additional information
+  Context: please reference statement attached in task description below to update stonex (gaba) for the [clien
+
+Row 1441 | task_id=1211094310152892
+  Value: please select
+  Context: new private investment new private investment [person] [email] new private investment beana ai name 
+
+Row 1544 | task_id=1210792411597347
+  Value: submitted through
+  Context: updates updates - real estate deals [person] [email] updates missing attribute (e.g., jsde asset cla
+
+Row 1622 | task_id=1210650254649450
+  Value: please select
+  Context: new private investment test - new private investment [employee] w
+
+ [email] 
+
+new private investment
+
+Row 1741 | task_id=1210135585068354
+  Value: please specify
+  Context: please transfer cash flows and or valuations to the [person] specific templates please access the ex
+
+Row 1858 | task_id=1209870509461447
+  Value: additional information
+  Context: i have added four more daily files from cantor for jsde's dfi entity. please load the historical dat
+
+Row 1939 | task_id=1209609377297712
+  Value: submitted through
+  Context: updates ———————————————
+this task was submitted through dfo support requests form updates [person] [
+
+Row 2437 | task_id=1207421961441614
+  Value: additional information
+  Context: update fabetri team with status of private investments, data feed and confirm which team members nee
+
+Row 2685 | task_id=1203137580031882
+  Value: additional information
+  Context: [duplicate] sfct placeholder list ask amplify to backfill once we get requested information.
+
+reques
+
+
+CLIENT: 7 occurrences
+--------------------------------------------------------------------------------
+Row 1575 | task_id=1210756252023250
+  Value: connery
+  Context: new legal entity new legal entity [person]
+
+ [email] 
+
+new legal entity
+
+what is the name of the ent
+
+Row 1576 | task_id=1210756356637382
+  Value: connery
+  Context: new legal entity new legal entity [person]
+
+ [email] 
+
+new legal entity
+
+what is the name of the ent
+
+Row 1751 | task_id=1210226059514570
+  Value: connery
+  Context: new legal entity new legal entity [person]
+
+ [email] 
+
+new legal entity
+
+what is the name of the ent
+
+Row 1752 | task_id=1210225900809726
+  Value: connery
+  Context: new legal entity new legal entity [person]
+
+ [email] 
+
+new legal entity
+
+what is the name of the ent
+
+Row 1753 | task_id=1210226123199115
+  Value: connery
+  Context: new legal entity new legal entity [person]
+
+ [email] 
+
+new legal entity
+
+what is the name of the ent
+
+Row 1913 | task_id=1209705262102944
+  Value: connery
+  Context: new legal entity new legal entity [person][email] 
+
+new legal entity
+
+what is the name of the entity
+
+Row 1986 | task_id=1209411856194043
+  Value: connery
+  Context: new legal entity new legal entity [person]
+
+ [email] 
+
+new legal entity
+
+what is the name of the ent
+
+
+CREDIT_CARD: 30 occurrences
+--------------------------------------------------------------------------------
+Row 172 | task_id=1213892170378842
+  Value: 0853-6897
+9514-4877
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+3779-6647
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0801-1135
+7409-0780
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0801-1135
+2354-2600
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0801-1135
+3275-2496
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0801-1135
+3807-4055
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0801-1135
+1993-9727
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+1046-1845
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+7797-2956
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+2888-3302
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+5858-2276
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+1604-9252
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+4606-1907
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+1616-5086
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+3684-6001
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+9403-4489
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+1014-1250
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0853-6897
+6862-4747
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0853-6897
+6215-3201
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0857-6515
+6054-8936
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0853-6897
+9377-0584
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0857-6515
+5082-9890
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0895-8906
+5107-8308
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0804-4616
+3577-2586
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0857-6515
+1026-2071
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0857-6515
+8471-0195
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0857-6515
+5467-1834
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 172 | task_id=1213892170378842
+  Value: 0895-8906
+2774-6511
+  Context: general updates please add the two new master accounts to [person] (ending in 2107 and 7952) and als
+
+Row 704 | task_id=1213087597709995
+  Value: 8912-5950
+7130-8019
+  Context: general updates please confirm the 5 accounts outlined by carolina in the task description below are
+
+Row 704 | task_id=1213087597709995
+  Value: 5997-6952
+4415-2811
+  Context: general updates please confirm the 5 accounts outlined by carolina in the task description below are
+
