@@ -1,0 +1,37 @@
+CLASSIFIER EVALUATION REPORT (v2)
+==================================================
+Model: Logistic Regression (C=1.0, multinomial)
+Features: all-mpnet-base-v2 embeddings (768-dim)
+Training samples: 2683
+Classes: 19 sub-types, 8 Issue Types
+Cross-validation: 5-fold stratified
+
+ACCURACY: 0.7600 (76.0%)
+
+CLASSIFICATION REPORT:
+                                     precision    recall  f1-score   support
+
+       Access & Permission Requests      0.836     0.783     0.809       143
+       Account Setup & Connectivity      0.777     0.908     0.838       304
+Cash Flow & Distribution Management      0.929     0.693     0.794        75
+    Client Report & View Management      0.718     0.827     0.769       243
+ Commitment & Capital Call Tracking      0.763     0.726     0.744       146
+             Contact & User Updates      0.810     0.756     0.782       135
+          Cost Basis Reconciliation      0.977     0.782     0.869        55
+         Debt & Lending Instruments      0.907     0.690     0.784        71
+           Historical Data Backfill      0.968     0.476     0.638        63
+    Investment Performance Analysis      0.867     0.732     0.794        71
+                Invoicing & Billing      0.856     0.779     0.815       122
+   Meetings, Reminders & Follow-ups      0.650     0.641     0.645       142
+          Missing Data & Attributes      0.725     0.793     0.758       203
+       New Private Investment Setup      0.731     0.802     0.764       247
+        Ownership & Trust Structure      0.772     0.827     0.799       139
+     Periodic NAV & Valuation Entry      0.909     0.357     0.513        56
+Recurring Data Maintenance & Audits      0.591     0.633     0.611       215
+          Scheduled Valuation Feeds      1.000     0.914     0.955        81
+     Security & Position Management      0.681     0.733     0.706       172
+
+                           accuracy                          0.760      2683
+                          macro avg      0.814     0.729     0.757      2683
+                       weighted avg      0.771     0.760     0.758      2683
+

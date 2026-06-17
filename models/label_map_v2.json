@@ -1,0 +1,21 @@
+{
+  "Access & Permission Requests": "Operational Administration",
+  "Account Setup & Connectivity": "Account & Data Onboarding",
+  "Cash Flow & Distribution Management": "Capital & Cash Flow Management",
+  "Client Report & View Management": "Client Reporting & Deliverables",
+  "Commitment & Capital Call Tracking": "Capital & Cash Flow Management",
+  "Contact & User Updates": "Operational Administration",
+  "Cost Basis Reconciliation": "Valuation & Pricing",
+  "Debt & Lending Instruments": "Portfolio & Investment Operations",
+  "Historical Data Backfill": "Account & Data Onboarding",
+  "Investment Performance Analysis": "Client Reporting & Deliverables",
+  "Invoicing & Billing": "Client Reporting & Deliverables",
+  "Meetings, Reminders & Follow-ups": "Operational Administration",
+  "Missing Data & Attributes": "Data Quality & Governance",
+  "New Private Investment Setup": "Portfolio & Investment Operations",
+  "Ownership & Trust Structure": "Ownership & Trust Structure",
+  "Periodic NAV & Valuation Entry": "Valuation & Pricing",
+  "Recurring Data Maintenance & Audits": "Data Quality & Governance",
+  "Scheduled Valuation Feeds": "Valuation & Pricing",
+  "Security & Position Management": "Portfolio & Investment Operations"
+}
